@@ -9,6 +9,7 @@ import Details from "./components/Details";
 import Skill from "./components/Skill";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import CV from "./components/CV"
 import Project from "./components/Project";
 import Blog from "./components/Blog";
 import MetaTags from "./components/MetaTags";
@@ -151,6 +152,7 @@ function App() {
                                             <Skill/>
                                             <Experience/>
                                             <Education/>
+                                            <CV/>
                                         </div>
                                     </div>
                                     <div className="lg:col-span-2 col-span-1">

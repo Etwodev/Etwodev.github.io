@@ -1,5 +1,9 @@
 // config.js
 module.exports = {
+    CV: {
+        path: '/CV.pdf',
+        title: 'My CV'
+    },
     github: {
         username: 'Etwodev', // Your GitHub org/user name. (Required)
         sortBy: 'stars', // stars | updated
@@ -16,7 +20,7 @@ module.exports = {
         dribbble: '',
         behance: '',
         medium: '',
-        devto: '',
+        devto: 'etwodev',
         website: 'https://etwodev.github.io',
         phone: '',
         email: 'etwodev@protonmail.ch'
@@ -28,7 +32,8 @@ module.exports = {
         'MySQL',
         'Dart',
         'Git',
-        'CSS'
+        'CSS',
+        'Swift'
     ],
     experiences: [
         { 
@@ -48,8 +53,8 @@ module.exports = {
     ],
     blog: {
         // Display blog posts from your medium or dev.to account. (Optional)
-        source: '', // medium | dev.to
-        username: '',
+        source: 'dev.to', // medium | dev.to
+        username: 'etwodev',
         limit: 3 // How many posts to display. Max is 10.
     },
     googleAnalytics: {
