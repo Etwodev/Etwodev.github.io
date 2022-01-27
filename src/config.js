@@ -89,12 +89,6 @@ module.exports = {
         degree: '7 Chemistry GCSE',
         from: '2015',
         to: '2019'
-      },
-      {
-        institution: 'Institution name 2',
-        degree: 'Higher Secondary Certificate (HSC)',
-        from: '2012',
-        to: '2014',
       }
     ],
     blog: {
