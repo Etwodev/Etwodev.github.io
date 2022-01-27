@@ -9,15 +9,7 @@ module.exports = {
       }
     },
     social: {
-      linkedin: '',
       twitter: 'Etwodev',
-      facebook: '',
-      dribbble: '',
-      behance: '',
-      medium: '',
-      devto: '',
-      website: '',
-      phone: '',
       email: 'etwodev@protonmail.ch'
     },
     skills: [
@@ -97,20 +89,6 @@ module.exports = {
         to: '2014',
       }
     ],
-    blog: {
-      // Display blog posts from your medium or dev.to account. (Optional)
-      source: '', // medium | dev.to
-      username: '',
-      limit: 5 // How many posts to display. Max is 10.
-    },
-    googleAnalytics: {
-      // GA3 tracking id/GA4 tag id
-      id: '' // UA-XXXXXXXXX-X | G-XXXXXXXXXX
-    },
-    hotjar: {
-      id: '',
-      snippetVersion : 6 
-    },
     themeConfig: {
       default: 'light',
   
