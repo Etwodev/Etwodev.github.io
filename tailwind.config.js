@@ -15,7 +15,7 @@ module.exports = {
       dribbble: '',
       behance: '',
       medium: '',
-      devto: 'etwodev',
+      devto: '',
       website: '',
       phone: '',
       email: 'etwodev@protonmail.ch'
@@ -99,8 +99,8 @@ module.exports = {
     ],
     blog: {
       // Display blog posts from your medium or dev.to account. (Optional)
-      source: 'dev.to', // medium | dev.to
-      username: 'etwodev',
+      source: '', // medium | dev.to
+      username: '',
       limit: 5 // How many posts to display. Max is 10.
     },
     googleAnalytics: {
