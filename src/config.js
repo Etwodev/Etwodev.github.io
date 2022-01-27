@@ -29,7 +29,6 @@ module.exports = {
         'Dart',
         'Git',
         'CSS'
-        ''
     ],
     experiences: [
         { 
