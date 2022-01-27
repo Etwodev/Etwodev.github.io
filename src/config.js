@@ -1,3 +1,4 @@
+// config.js
 module.exports = {
     github: {
         username: 'Etwodev', // Your GitHub org/user name. (Required)
@@ -9,104 +10,59 @@ module.exports = {
         }
     },
     social: {
-      linkedin: '',
-      twitter: 'Etwodev',
-      facebook: '',
-      dribbble: '',
-      behance: '',
-      medium: '',
-      devto: 'etwodev',
-      website: '',
-      phone: '',
-      email: 'etwodev@protonmail.ch'
+        linkedin: '',
+        twitter: 'etwodev',
+        facebook: '',
+        dribbble: '',
+        behance: '',
+        medium: '',
+        devto: '',
+        website: 'https://etwodev.github.io',
+        phone: '',
+        email: 'etwodev@protonmail.ch'
     },
     skills: [
-      'Python',
-      'php',
-      'Dart',
-      'CSS',
-      'JavaScript'
+        'Python',
+        'php',
+        'JavaScript',
+        'MySQL',
+        'Dart',
+        'Git',
+        'CSS'
+        ''
     ],
     experiences: [
-        {
+        { 
             company: 'Fireplace',
-            position: 'Backend Software Engineer',
+            position: 'Backend Engineer',
             from: 'January 2022',
             to: 'Present'
         }
     ],
     education: [
-        {
-            institution: 'King Edwards VI',
-            degree: 'Computer Science A-Level',
-            from: '2021',
-            to: 'Present'
-        },
-        {
-            institution: 'King Edwards VI',
-            degree: 'Maths A-Level',
-            from: '2021',
-            to: 'Present'
-        },
-        {
-            institution: 'King Edwards VI',
-            degree: 'Physics A-Level',
-            from: '2021',
-            to: 'Present'
-        },
-        {
-            institution: 'King Edwards VI',
-            degree: 'A* Computer Science GCSE',
+        { 
+            institution: 'King Edwards VI Secondary School',
+            degree: 'General Certificate of Secondary Education (GCSE)',
             from: '2016',
             to: '2021'
-        },
-        {
-            institution: 'King Edwards VI',
-            degree: 'A* English Language GCSE',
-            from: '2016',
-            to: '2021'
-        },
-        {
-            institution: 'King Edwards VI',
-            degree: '9 Maths GCSE',
-            from: '2016',
-            to: '2021'
-        },
-        {
-            institution: 'King Edwards VI',
-            degree: '8 Physics GCSE',
-            from: '2016',
-            to: '2021'
-        },
-        {
-            institution: 'King Edwards VI',
-            degree: '7 Biology GCSE',
-            from: '2016',
-            to: '2021'
-        },
-        {
-            institution: 'King Edwards VI',
-            degree: '7 Chemistry GCSE',
-            from: '2015',
-            to: '2019'
         }
     ],
     blog: {
         // Display blog posts from your medium or dev.to account. (Optional)
-        source: 'dev.to', // medium | dev.to
-        username: 'arifszn',
+        source: '', // medium | dev.to
+        username: '',
         limit: 3 // How many posts to display. Max is 10.
     },
     googleAnalytics: {
         // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-        id: 'G-WLLB5E14M6' // Please remove this and use your own tag id or keep it empty
+        id: '' // Please remove this and use your own tag id or keep it empty
     },
     hotjar: {
-        id: '2617601', //  Please remove this and use your own id or keep it empty
+        id: '', //  Please remove this and use your own id or keep it empty
         snippetVersion : 6
     },
     themeConfig: {
-        default: 'light',
+        default: 'cupcake',
 
         // Hides the switch in the navbar
         // Useful if you want to support a single color mode
