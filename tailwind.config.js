@@ -1,4 +1,21 @@
 module.exports = {
+    purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+    darkMode: false, // or 'media' or 'class'
+    theme: {
+        extend: {},
+    },
+    themeConfig: {
+        default: 'cupcake'
+    },
+    variants: {
+        extend: {},
+    },
+    plugins: [
+        require('daisyui')
+    ],
+    daisyui: {
+        logs: false
+    },
     github: {
       username: 'Etwodev', // Your GitHub org/user name. (Required)
       sortBy: 'stars', // stars | updated
@@ -7,10 +24,6 @@ module.exports = {
         forks: false, // Forked projects will not be displayed if set to true.
         projects: [] // These projects will not be displayed. example: ['my-project1', 'my-project2']
       }
-    },
-    social: {
-      twitter: 'Etwodev',
-      email: 'etwodev@protonmail.ch'
     },
     skills: [
       'Python',
@@ -81,51 +94,6 @@ module.exports = {
         degree: '7 Chemistry GCSE',
         from: '2015',
         to: '2019'
-      },
-      {
-        institution: 'Institution name 2',
-        degree: 'Higher Secondary Certificate (HSC)',
-        from: '2012',
-        to: '2014',
       }
-    ],
-    themeConfig: {
-      default: 'light',
-  
-      // Hides the theme change switch
-      // Useful if you want to support a single color mode
-      disableSwitch: false,
-  
-      // Should we use the prefers-color-scheme media-query,
-      // using user system preferences, instead of the hardcoded default
-      respectPrefersColorScheme: true,
-      themeConfig: {
-          default: 'cupcake'
-      },
-    
-      // Available themes. To remove any theme, exclude from here.
-      themes: [
-        'light',
-        'dark',
-        'cupcake',
-        'bumblebee',
-        'emerald',
-        'corporate',
-        'synthwave',
-        'retro',
-        'cyberpunk',
-        'valentine',
-        'halloween',
-        'garden',
-        'forest',
-        'aqua',
-        'lofi',
-        'pastel',
-        'fantasy',
-        'wireframe',
-        'black',
-        'luxury',
-        'dracula'
-      ]
-    }
-  }
+    ]
+}
