@@ -1,14 +1,14 @@
 {
-    "name": "ezprofile",
+    "name": "Etwodev",
     "version": "1.1.1",
     "description": "Kickstart your personal portfolio with Github Api and blog",
-    "homepage": "https://etwodev.github.io",
+    "homepage": "https://Etwodev.github.io",
     "private": true,
     "license": "Apache-2.0",
-    "author": "etowdev",
+    "author": "Etwodev",
     "repository": {
         "type": "git",
-        "url": "https://github.com/etwodev/etwodev.github.io.git"
+        "url": "https://github.com/etwodev/Etwodev.github.io.git"
     },
     "dependencies": {
         "@craco/craco": "^6.2.0",
