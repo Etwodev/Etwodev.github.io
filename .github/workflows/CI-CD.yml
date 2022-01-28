@@ -28,7 +28,7 @@ jobs:
       run: npm install
 
     - name: Build
-      run: npm run build
+      run: ls ; npm run build
       env:
          CI: ""
          
