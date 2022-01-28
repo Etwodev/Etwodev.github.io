@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Cutive');
 
 * {
     scrollbar-width: thin;
@@ -84,4 +85,25 @@ svg {
 @-webkit-keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+body{ 
+  margin: 0;
+}
+
+#text{
+  position: absolute;
+  z-index: 1;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Cutive';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: rgba(255, 255, 255, 0.8);
+  -webkit-font-smoothing: antialiased;
 }
