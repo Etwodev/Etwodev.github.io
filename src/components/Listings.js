@@ -67,7 +67,7 @@ const Listings = () => {
                         console.error(error);
                     }
 
-                    window.open(item.path, '_blank')
+                    window.location.href = item.path;
                 }}
             >
                 <div className="flex justify-between flex-col p-8 h-full w-full">
