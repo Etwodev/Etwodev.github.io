@@ -8,16 +8,16 @@ import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { LoadingProvider } from './contexts/LoadingContext';
 import { setupHotjar } from './helpers/utils';
-import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 ReactDOM.render(
     <React.StrictMode>
-        <HashRouter>
+        <Router>
             <Routes>
                 <Route path="/" element={<Homepage />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
-        </HashRouter>
+        </Router>
     </React.StrictMode>,
     document.getElementById('root')
 );
