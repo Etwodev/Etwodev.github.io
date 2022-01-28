@@ -3,6 +3,7 @@ import { Fragment, useCallback, useContext, useEffect, useState } from "react";
 import AvatarCard from "./components/AvatarCard";
 import ErrorPage from "./components/ErrorPage";
 import ThemeChanger from "./components/ThemeChanger";
+import Listings from "./components/Listings";
 import config from "./config";
 import moment from 'moment';
 import Details from "./components/Details";
@@ -158,6 +159,7 @@ function App() {
                                     <div className="lg:col-span-2 col-span-1">
                                         <div className="grid grid-cols-1 gap-6">
                                             <Project repo={repo}/>
+                                            <Listings/>
                                             <Blog/>
                                         </div>
                                     </div>
@@ -174,7 +176,7 @@ function App() {
                 }
             </div>
         </Fragment>
-    );
+    )
 }
 
 export default App;

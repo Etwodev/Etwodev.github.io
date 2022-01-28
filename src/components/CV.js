@@ -4,7 +4,7 @@ import config from "../config";
 import PropTypes from 'prop-types';
 import { LoadingContext } from "../contexts/LoadingContext";
 
-const Project = (props) => {
+const CV = () => {
     const [loading] = useContext(LoadingContext);
 
     return (
@@ -42,8 +42,8 @@ const Project = (props) => {
     )
 }
 
-Project.propTypes = {
+CV.propTypes = {
     repo: PropTypes.array
 }
 
-export default Project;
+export default CV;

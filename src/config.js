@@ -13,6 +13,20 @@ module.exports = {
             projects: [] // These projects will not be displayed. example: ['my-project1', 'my-project2']
         }
     },
+    listings: [
+        {
+            name: "Everlight",
+            description: "A projectile based unity game",
+            language: "C#",
+            path: "/projects/Everlight"
+        },
+        {
+            name: "Calc",
+            description: "An easy to use MacOS Menu-bar calculator",
+            language: "Swift",
+            path: "/projects/Calc"
+        }
+    ],
     social: {
         linkedin: '',
         twitter: 'etwodev',
