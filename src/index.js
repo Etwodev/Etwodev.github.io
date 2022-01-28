@@ -8,15 +8,17 @@ import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { LoadingProvider } from './contexts/LoadingContext';
 import { setupHotjar } from './helpers/utils';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom'
 
 ReactDOM.render(
-    <Router>
-        <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="*" element={<NotFound />} />
-        </Routes>
-    </Router>,
+    <React.StrictMode>
+        <HashRouter>
+            <Routes>
+                <Route path="/" element={<Homepage />} />
+                <Route path="*" element={<NotFound />} />
+            </Routes>
+        </HashRouter>
+    </React.StrictMode>,
     document.getElementById('root')
 );
 
@@ -30,15 +32,13 @@ function NotFound () {
 
 function Homepage () {
     return (
-    <React.StrictMode>
-        <ThemeProvider>
-            <LoadingProvider>
-                <HelmetProvider>
-                    <App/>
-                </HelmetProvider>
-            </LoadingProvider>
-        </ThemeProvider>
-    </React.StrictMode>
+    <ThemeProvider>
+        <LoadingProvider>
+            <HelmetProvider>
+                <App/>
+            </HelmetProvider>
+        </LoadingProvider>
+    </ThemeProvider>
     );
 }
 
