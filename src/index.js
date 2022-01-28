@@ -15,7 +15,7 @@ ReactDOM.render(
         <Router>
             <Routes>
                 <Route path="/" element={<Homepage />} />
-                <Route path="*" element={<NotFound />} />
+                <Route path="/*" element={<NotFound />} />
             </Routes>
         </Router>
     </React.StrictMode>,
