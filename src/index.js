@@ -8,7 +8,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { LoadingProvider } from './contexts/LoadingContext';
 import { setupHotjar } from './helpers/utils';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -28,7 +28,7 @@ function NotFound () {
             <PageNotFound/>
         </a>
     );
-}
+};
 
 function Homepage () {
     return (
