@@ -41,20 +41,21 @@ module.exports = {
     },
     skills: [
         'Python',
-        'php',
+        'GO'
+        'Typescript'
+        'PHP',
         'JavaScript',
         'MySQL',
-        'Dart',
         'Git',
         'CSS',
-        'Swift'
+        'Unity'
     ],
     experiences: [
         { 
             company: 'Fireplace',
             position: 'Backend Engineer',
             from: 'January 2022',
-            to: 'Present'
+            to: 'March 2022'
         }
     ],
     education: [
