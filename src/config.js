@@ -41,8 +41,8 @@ module.exports = {
     },
     skills: [
         'Python',
-        'GO'
-        'Typescript'
+        'GO',
+        'Typescript',
         'PHP',
         'JavaScript',
         'MySQL',
